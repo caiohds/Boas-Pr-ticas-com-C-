@@ -1,4 +1,5 @@
 ﻿using CursoDeDesignPatterns;
+using CursoDeDesignPatterns.Descontos;
 
 class Program
 {

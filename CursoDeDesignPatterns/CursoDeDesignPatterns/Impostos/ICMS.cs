@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoDeDesignPatterns
+namespace CursoDeDesignPatterns.Impostos
 {
-    public class ISS : Imposto
+    public class ICMS : Imposto
     {
         public double Calcula(Orcamento orcamento)
         {
-            return orcamento.Valor * 0.06;
+            return orcamento.Valor * 0.1;
         }
     }
 }
