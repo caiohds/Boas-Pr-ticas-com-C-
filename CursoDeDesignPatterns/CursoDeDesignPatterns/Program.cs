@@ -7,13 +7,16 @@ class Program
     {
         DescontoPorMaisDe5Itens desconto1 = new DescontoPorMaisDe5Itens();
         DescontoPorValorMaiorQue500 desconto2 = new DescontoPorValorMaiorQue500();
-        SemDesconto desconto3 = new SemDesconto();
+        DescontoParaCanetaOuLapis desconto3 = new DescontoParaCanetaOuLapis();
+        SemDesconto desconto4 = new SemDesconto();
+        
 
         desconto1.Proximo = desconto2;
         desconto2.Proximo = desconto3;
+        desconto3.Proximo = desconto4;
 
-        Orcamento orcamento = new Orcamento(600);
-        Item item1 = new Item("item1", 50);
+        Orcamento orcamento = new Orcamento(500);
+        Item item1 = new Item("Caneta", 50);
         Item item2 = new Item("item2", 50);
         Item item3 = new Item("item3", 50);
         Item item4 = new Item("item4", 50);

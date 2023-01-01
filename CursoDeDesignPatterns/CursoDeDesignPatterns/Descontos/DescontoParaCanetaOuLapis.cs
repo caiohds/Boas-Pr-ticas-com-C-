@@ -25,7 +25,7 @@ namespace CursoDeDesignPatterns.Descontos
         {
             foreach(Item item in orcamento.Itens)
             {
-                if(item.Nome.Equals('Caneta') || item.Nome.Equals('Lapis'))
+                if(item.Nome.Equals("Caneta") || item.Nome.Equals("Lapis"))
                 {
                     return true;
                 }
