@@ -13,3 +13,18 @@ C:\Users\caioh\OneDrive\Documents\Projetos_Programacao\Boas_Praticas_C#\CursoDeD
 C:\Users\caioh\OneDrive\Documents\Projetos_Programacao\Boas_Praticas_C#\CursoDeDesignPatterns\CursoDeDesignPatterns\obj\Debug\net6.0\CursoDeDesignPatterns.pdb
 C:\Users\caioh\OneDrive\Documents\Projetos_Programacao\Boas_Praticas_C#\CursoDeDesignPatterns\CursoDeDesignPatterns\obj\Debug\net6.0\CursoDeDesignPatterns.genruntimeconfig.cache
 C:\Users\caioh\OneDrive\Documents\Projetos_Programacao\Boas_Praticas_C#\CursoDeDesignPatterns\CursoDeDesignPatterns\obj\Debug\net6.0\ref\CursoDeDesignPatterns.dll
+C:\Users\caioh\OneDrive\Documentos\Projetos Programação\Boas-Pr-ticas-com-C--main\Boas-Pr-ticas-com-C--main\CursoDeDesignPatterns\CursoDeDesignPatterns\bin\Debug\net6.0\CursoDeDesignPatterns.exe
+C:\Users\caioh\OneDrive\Documentos\Projetos Programação\Boas-Pr-ticas-com-C--main\Boas-Pr-ticas-com-C--main\CursoDeDesignPatterns\CursoDeDesignPatterns\bin\Debug\net6.0\CursoDeDesignPatterns.deps.json
+C:\Users\caioh\OneDrive\Documentos\Projetos Programação\Boas-Pr-ticas-com-C--main\Boas-Pr-ticas-com-C--main\CursoDeDesignPatterns\CursoDeDesignPatterns\bin\Debug\net6.0\CursoDeDesignPatterns.runtimeconfig.json
+C:\Users\caioh\OneDrive\Documentos\Projetos Programação\Boas-Pr-ticas-com-C--main\Boas-Pr-ticas-com-C--main\CursoDeDesignPatterns\CursoDeDesignPatterns\bin\Debug\net6.0\CursoDeDesignPatterns.dll
+C:\Users\caioh\OneDrive\Documentos\Projetos Programação\Boas-Pr-ticas-com-C--main\Boas-Pr-ticas-com-C--main\CursoDeDesignPatterns\CursoDeDesignPatterns\bin\Debug\net6.0\CursoDeDesignPatterns.pdb
+C:\Users\caioh\OneDrive\Documentos\Projetos Programação\Boas-Pr-ticas-com-C--main\Boas-Pr-ticas-com-C--main\CursoDeDesignPatterns\CursoDeDesignPatterns\obj\Debug\net6.0\CursoDeDesignPatterns.csproj.AssemblyReference.cache
+C:\Users\caioh\OneDrive\Documentos\Projetos Programação\Boas-Pr-ticas-com-C--main\Boas-Pr-ticas-com-C--main\CursoDeDesignPatterns\CursoDeDesignPatterns\obj\Debug\net6.0\CursoDeDesignPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caioh\OneDrive\Documentos\Projetos Programação\Boas-Pr-ticas-com-C--main\Boas-Pr-ticas-com-C--main\CursoDeDesignPatterns\CursoDeDesignPatterns\obj\Debug\net6.0\CursoDeDesignPatterns.AssemblyInfoInputs.cache
+C:\Users\caioh\OneDrive\Documentos\Projetos Programação\Boas-Pr-ticas-com-C--main\Boas-Pr-ticas-com-C--main\CursoDeDesignPatterns\CursoDeDesignPatterns\obj\Debug\net6.0\CursoDeDesignPatterns.AssemblyInfo.cs
+C:\Users\caioh\OneDrive\Documentos\Projetos Programação\Boas-Pr-ticas-com-C--main\Boas-Pr-ticas-com-C--main\CursoDeDesignPatterns\CursoDeDesignPatterns\obj\Debug\net6.0\CursoDeDesignPatterns.csproj.CoreCompileInputs.cache
+C:\Users\caioh\OneDrive\Documentos\Projetos Programação\Boas-Pr-ticas-com-C--main\Boas-Pr-ticas-com-C--main\CursoDeDesignPatterns\CursoDeDesignPatterns\obj\Debug\net6.0\CursoDeDesignPatterns.dll
+C:\Users\caioh\OneDrive\Documentos\Projetos Programação\Boas-Pr-ticas-com-C--main\Boas-Pr-ticas-com-C--main\CursoDeDesignPatterns\CursoDeDesignPatterns\obj\Debug\net6.0\refint\CursoDeDesignPatterns.dll
+C:\Users\caioh\OneDrive\Documentos\Projetos Programação\Boas-Pr-ticas-com-C--main\Boas-Pr-ticas-com-C--main\CursoDeDesignPatterns\CursoDeDesignPatterns\obj\Debug\net6.0\CursoDeDesignPatterns.pdb
+C:\Users\caioh\OneDrive\Documentos\Projetos Programação\Boas-Pr-ticas-com-C--main\Boas-Pr-ticas-com-C--main\CursoDeDesignPatterns\CursoDeDesignPatterns\obj\Debug\net6.0\CursoDeDesignPatterns.genruntimeconfig.cache
+C:\Users\caioh\OneDrive\Documentos\Projetos Programação\Boas-Pr-ticas-com-C--main\Boas-Pr-ticas-com-C--main\CursoDeDesignPatterns\CursoDeDesignPatterns\obj\Debug\net6.0\ref\CursoDeDesignPatterns.dll
