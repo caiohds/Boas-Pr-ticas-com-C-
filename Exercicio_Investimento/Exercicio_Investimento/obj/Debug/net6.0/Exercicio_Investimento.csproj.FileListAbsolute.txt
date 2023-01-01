@@ -1,0 +1,15 @@
+C:\Users\caioh\OneDrive\Documents\Projetos_Programacao\Boas_Praticas_C#\Exercicio_Investimento\Exercicio_Investimento\obj\Debug\net6.0\Exercicio_Investimento.csproj.AssemblyReference.cache
+C:\Users\caioh\OneDrive\Documents\Projetos_Programacao\Boas_Praticas_C#\Exercicio_Investimento\Exercicio_Investimento\obj\Debug\net6.0\Exercicio_Investimento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caioh\OneDrive\Documents\Projetos_Programacao\Boas_Praticas_C#\Exercicio_Investimento\Exercicio_Investimento\obj\Debug\net6.0\Exercicio_Investimento.AssemblyInfoInputs.cache
+C:\Users\caioh\OneDrive\Documents\Projetos_Programacao\Boas_Praticas_C#\Exercicio_Investimento\Exercicio_Investimento\obj\Debug\net6.0\Exercicio_Investimento.AssemblyInfo.cs
+C:\Users\caioh\OneDrive\Documents\Projetos_Programacao\Boas_Praticas_C#\Exercicio_Investimento\Exercicio_Investimento\obj\Debug\net6.0\Exercicio_Investimento.csproj.CoreCompileInputs.cache
+C:\Users\caioh\OneDrive\Documents\Projetos_Programacao\Boas_Praticas_C#\Exercicio_Investimento\Exercicio_Investimento\bin\Debug\net6.0\Exercicio_Investimento.exe
+C:\Users\caioh\OneDrive\Documents\Projetos_Programacao\Boas_Praticas_C#\Exercicio_Investimento\Exercicio_Investimento\bin\Debug\net6.0\Exercicio_Investimento.deps.json
+C:\Users\caioh\OneDrive\Documents\Projetos_Programacao\Boas_Praticas_C#\Exercicio_Investimento\Exercicio_Investimento\bin\Debug\net6.0\Exercicio_Investimento.runtimeconfig.json
+C:\Users\caioh\OneDrive\Documents\Projetos_Programacao\Boas_Praticas_C#\Exercicio_Investimento\Exercicio_Investimento\bin\Debug\net6.0\Exercicio_Investimento.dll
+C:\Users\caioh\OneDrive\Documents\Projetos_Programacao\Boas_Praticas_C#\Exercicio_Investimento\Exercicio_Investimento\bin\Debug\net6.0\Exercicio_Investimento.pdb
+C:\Users\caioh\OneDrive\Documents\Projetos_Programacao\Boas_Praticas_C#\Exercicio_Investimento\Exercicio_Investimento\obj\Debug\net6.0\Exercicio_Investimento.dll
+C:\Users\caioh\OneDrive\Documents\Projetos_Programacao\Boas_Praticas_C#\Exercicio_Investimento\Exercicio_Investimento\obj\Debug\net6.0\refint\Exercicio_Investimento.dll
+C:\Users\caioh\OneDrive\Documents\Projetos_Programacao\Boas_Praticas_C#\Exercicio_Investimento\Exercicio_Investimento\obj\Debug\net6.0\Exercicio_Investimento.pdb
+C:\Users\caioh\OneDrive\Documents\Projetos_Programacao\Boas_Praticas_C#\Exercicio_Investimento\Exercicio_Investimento\obj\Debug\net6.0\Exercicio_Investimento.genruntimeconfig.cache
+C:\Users\caioh\OneDrive\Documents\Projetos_Programacao\Boas_Praticas_C#\Exercicio_Investimento\Exercicio_Investimento\obj\Debug\net6.0\ref\Exercicio_Investimento.dll
