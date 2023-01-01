@@ -9,6 +9,6 @@ namespace CursoDeDesignPatterns
     public interface IDesconto
     {
         double Desconta(Orcamento orcamento);
-        IDesconto Desconto { get; set; }
+        IDesconto Proximo { get; set; }
     }
 }
