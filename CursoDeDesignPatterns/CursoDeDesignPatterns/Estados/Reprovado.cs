@@ -7,26 +7,26 @@ using System.Threading.Tasks;
 
 namespace CursoDeDesignPatterns.Estados
 {
-    public class EmAprovacao : EstadoOrcamento
+    public class Reprovado : EstadoOrcamento
     {
         public void AplicaDescontoExtra(Orcamento orcamento)
         {
-            orcamento.Valor -= orcamento.Valor * 0.05;
+            throw new Exception("Não é possível aplicar desconto para um orçamento reprovado!");
         }
 
         public void Aprova(Orcamento orcamento)
         {
-            orcamento.Estado = new Aprovado();
+            throw new NotImplementedException("O orçamento foi reprovado");
         }
 
         public void Finaliza(Orcamento orcamento)
         {
-            throw new Exception("O orcamento ainda está em aprovação");
+            orcamento.Estado = new Finalizado();
         }
 
         public void Reprova(Orcamento orcamento)
         {
-            orcamento.Estado = new Reprovado();
+            throw new Exception("O orçamento já foi reprovado!");
         }
     }
 }
