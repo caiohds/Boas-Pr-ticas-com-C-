@@ -18,7 +18,7 @@ namespace CursoDeDesignPatterns.Impostos
         {
             this.proximoImposto = null;
         }
-        protected abstract double Calcula(Orcamento orcamento);
+        public abstract double Calcula(Orcamento orcamento);
         
         protected double CalculaProximoImposto(Orcamento orcamento)
         {
