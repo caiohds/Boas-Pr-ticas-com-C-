@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoDeDesignPatterns
+namespace CursoDeDesignPatterns.Auxiliares
 {
     public class Orcamento
     {
-        public double  Valor { get; set; }
+        public double Valor { get; set; }
         public IList<Item> Itens;
         public Orcamento(double valor)
         {

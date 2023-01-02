@@ -3,11 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CursoDeDesignPatterns.Auxiliares;
 
 namespace CursoDeDesignPatterns.Impostos
 {
-    public interface Imposto
+    public abstract class Imposto
     {
-        double Calcula(Orcamento orcamento);
+        protected Imposto proximoImposto { get; set; }
+        public Imposto(Imposto proximoImposto)
+        {
+            this.proximoImposto = proximoImposto;
+        }
+
+        protected abstract double Calcula(Orcamento orcamento);
     }
 }

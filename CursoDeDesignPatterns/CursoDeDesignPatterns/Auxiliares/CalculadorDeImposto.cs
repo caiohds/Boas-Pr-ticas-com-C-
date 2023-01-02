@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using CursoDeDesignPatterns.Impostos;
 
-namespace CursoDeDesignPatterns
+namespace CursoDeDesignPatterns.Auxiliares
 {
     public class CalculadorDeImposto
     {
-        public void RealizaCalculo(Orcamento orcamento,Imposto imposto)
+        public void RealizaCalculo(Orcamento orcamento, Imposto imposto)
         {
             double impostoFinal = imposto.Calcula(orcamento);
             Console.WriteLine(impostoFinal);

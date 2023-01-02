@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoDeDesignPatterns
+namespace CursoDeDesignPatterns.Auxiliares
 {
     public class Item
     {
-        public string Nome{ get; private set; }
-        public double Valor{ get; private set; }
+        public string Nome { get; private set; }
+        public double Valor { get; private set; }
         public Item(string nome, double valor)
         {
             Nome = nome;
