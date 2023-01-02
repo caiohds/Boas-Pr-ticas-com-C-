@@ -9,7 +9,7 @@ namespace CursoDeDesignPatterns.Impostos
 {
     public abstract class Imposto
     {
-        protected Imposto proximoImposto { get; private set; }
+        protected Imposto? proximoImposto { get; private set; }
         public Imposto(Imposto proximoImposto)
         {
             this.proximoImposto = proximoImposto;
