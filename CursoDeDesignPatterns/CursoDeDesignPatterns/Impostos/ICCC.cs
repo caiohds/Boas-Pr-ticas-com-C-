@@ -9,17 +9,19 @@ namespace CursoDeDesignPatterns.Impostos
 {
     public class ICCC : Imposto
     {
-        public double Calcula(Orcamento orcamento)
+        protected override double Calcula(Orcamento orcamento)
         {
+            public ICCC () : base(Imposto proximoImposto){ }
+            
             if (orcamento.Valor < 1000.0)
             {
-                return orcamento.Valor * 0.05;
+                return orcamento.Valor * 0.05 + CalculaProximoImposto(orcamento);
             }
             if (orcamento.Valor <= 3000)
             {
-                return orcamento.Valor * 0.07;
+                return orcamento.Valor * 0.07 + CalculaProximoImposto(orcamento);
             }
-            return orcamento.Valor * 0.08 + 30;
+            return orcamento.Valor * 0.08 + 30 + CalculaProximoImposto(orcamento);
         }
     }
 }
