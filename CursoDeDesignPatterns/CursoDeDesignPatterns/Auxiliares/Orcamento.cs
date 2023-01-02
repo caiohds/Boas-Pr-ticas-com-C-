@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CursoDeDesignPatterns.Estados;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,10 +11,13 @@ namespace CursoDeDesignPatterns.Auxiliares
     {
         public double Valor { get; set; }
         public IList<Item> Itens;
+        public EstadoOrcamento Estado { get; set; }
+       
         public Orcamento(double valor)
         {
             Valor = valor;
             Itens = new List<Item>();
+            Estado = new EmAprovacao();
         }
         public void adicionaItem(Item item)
         {
