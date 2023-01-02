@@ -23,5 +23,24 @@ namespace CursoDeDesignPatterns.Auxiliares
         {
             Itens.Add(item);
         }
+        public void AplicaDescontoExtra()
+        {
+            Estado.AplicaDescontoExtra(this);
+        }
+
+        public void Aprova()
+        {
+            Estado.Aprova(this);
+        }
+
+        public void Reprova()
+        {
+            Estado.Reprova(this);
+        }
+
+        public void Finaliza()
+        {
+            Estado.Finaliza(this);
+        }
     }
 }
