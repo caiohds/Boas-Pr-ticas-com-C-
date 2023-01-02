@@ -20,7 +20,7 @@ class Program
 
         Orcamento orcamento = new Orcamento(500);
 
-        Imposto imposto = new ICCC(new ICMS(new IKCV()));
+        Imposto imposto = new ImpostoMuitoAlto(new ICCC());
 
         double valor = imposto.Calcula(orcamento);
 
