@@ -8,7 +8,9 @@ class Program
     static void Main(string[] args)
     {
         NotaFiscalBuilder construtor = new NotaFiscalBuilder();
-
+        construtor.AdicionaAcao(new EnviarEmail());
+        construtor.AdicionaAcao(new EnviarSms());
+        construtor.AdicionaAcao(new NotaFiscalDao());
         construtor.ComRazaoSocial("abcdesfs")
         .ComCnpj("123132132-2")
         .DataAtual()

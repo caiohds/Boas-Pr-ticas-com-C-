@@ -15,10 +15,25 @@ namespace CursoDeDesignPatterns.NotaFiscalItens
         public double Impostos { get; private set; }
         public IList<ItemDaNota> Itens = new List<ItemDaNota>();
         public string Observacoes { get; private set; }
+        private IList<AcaoAposGerarNota> Acoes;
 
+        public NotaFiscalBuilder()
+        {
+            Acoes = new List<AcaoAposGerarNota>();
+        }
         public NotaFiscal Builder()
         {
-            return new NotaFiscal(RazaoSocial,Cnpj,DataDeEmissao, ValorBruto, Impostos,Itens,Observacoes);
+            NotaFiscal nf = new NotaFiscal(RazaoSocial, Cnpj, DataDeEmissao, ValorBruto, Impostos, Itens
+                            , Observacoes);
+            foreach (AcaoAposGerarNota acao in Acoes)
+            {
+                acao.Exibir(nf);
+            }
+            return nf;
+        }
+        public void AdicionaAcao(AcaoAposGerarNota novaAcao)
+        {
+            Acoes.Add(novaAcao);
         }
         
         public NotaFiscalBuilder ComRazaoSocial(string RazaoSocial)
