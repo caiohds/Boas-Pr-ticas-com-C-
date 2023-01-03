@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace CursoDeDesignPatterns.NotaFiscalItens
 {
-    public class EnviarEmail : AcaoAposGerarNota
+    public class EnviarSms : AcaoAposGerarNota
     {
         public void Exibir(NotaFiscal nota)
         {
-            Console.WriteLine("Email Enviado");
+            Console.WriteLine("Sms enviado");
         }
     }
 }
