@@ -15,7 +15,7 @@ namespace CursoDeDesignPatterns.Estados
             if (!descontoDado)
             {
                 orcamento.Valor -= orcamento.Valor * 0.05;
-                orcamento.descontoDado = true;
+                descontoDado = true;
             }
             else
             {

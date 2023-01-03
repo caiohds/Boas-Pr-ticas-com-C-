@@ -1,30 +1,25 @@
 ﻿using CursoDeDesignPatterns.Auxiliares;
 using CursoDeDesignPatterns.Descontos;
 using CursoDeDesignPatterns.Impostos;
+using CursoDeDesignPatterns.NotaFiscalItens;
 
 class Program
 {
     static void Main(string[] args)
     {
-        //CalculadorDeDescontos calculador = new CalculadorDeDescontos();
+        NotaFiscalBuilder construtor = new NotaFiscalBuilder();
 
-        // Orcamento orcamento = new Orcamento(500);
+        construtor.ComRazaoSocial("abcdesfs")
+        .ComCnpj("123132132-2")
+        .DataAtual()
+        .ComItens(new ItemDaNota("ab", 100))
+        .ComItens(new ItemDaNota("bc",200))
+        .ComObservacoes("observacão");
 
-        // orcamento.adicionaItem(new Item("Caneta", 50));
-        // orcamento.adicionaItem(new Item("item2", 50));
-        // orcamento.adicionaItem(new Item("item3", 50));
-        // orcamento.adicionaItem(new Item("item4", 50));
-        // orcamento.adicionaItem(new Item("item5", 50));
+        NotaFiscal nf = construtor.Builder();
 
-        // Console.WriteLine(calculador.Calcula(orcamento).ToString("C"));
-
-        Orcamento orcamento = new Orcamento(500);
-
-        Imposto imposto = new ImpostoMuitoAlto(new ICCC());
-
-        double valor = imposto.Calcula(orcamento);
-
-        Console.WriteLine(valor);
+        Console.WriteLine("Valor Bruto:" + nf.ValorBruto);
+        Console.WriteLine("Imposto total: " + nf.Impostos);
     }
 }
 

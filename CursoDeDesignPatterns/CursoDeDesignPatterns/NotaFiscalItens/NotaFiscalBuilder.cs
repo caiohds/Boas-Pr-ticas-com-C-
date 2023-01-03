@@ -8,13 +8,13 @@ namespace CursoDeDesignPatterns.NotaFiscalItens
 {
     public class NotaFiscalBuilder
     {
-        public string RazaoSocial { get; set; }
-        public string Cnpj { get; set; }
-        public DateTime DataDeEmissao { get; set; }
-        public double ValorBruto { get; set; }
-        public double Impostos { get; set; }
-        public IList<ItemDaNota> Itens { get; set; }
-        public string Observacoes { get; set; }
+        public string RazaoSocial { get; private set; }
+        public string Cnpj { get; private set; }
+        public DateTime DataDeEmissao { get; private set; }
+        public double ValorBruto { get; private set; }
+        public double Impostos { get; private set; }
+        public IList<ItemDaNota> Itens = new List<ItemDaNota>();
+        public string Observacoes { get; private set; }
 
         public NotaFiscal Builder()
         {
@@ -39,14 +39,8 @@ namespace CursoDeDesignPatterns.NotaFiscalItens
         public NotaFiscalBuilder ComItens(ItemDaNota item)
         {
             Itens.Add(item);
-            return this;
-        }
-        public NotaFiscalBuilder ValorTotal()
-        {
-            foreach(ItemDaNota item in Itens)
-            {
-                ValorBruto += item.Valor;
-            }
+            ValorBruto += item.Valor;
+            Impostos += item.Valor * 0.05;
             return this;
         }
         public NotaFiscalBuilder ComObservacoes(string observacoes)
