@@ -11,6 +11,7 @@ class Program
         construtor.AdicionaAcao(new EnviarEmail());
         construtor.AdicionaAcao(new EnviarSms());
         construtor.AdicionaAcao(new NotaFiscalDao());
+        construtor.AdicionaAcao(new Multiplicador(3));
         construtor.ComRazaoSocial("abcdesfs")
         .ComCnpj("123132132-2")
         .DataAtual()
