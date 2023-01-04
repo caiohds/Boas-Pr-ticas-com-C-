@@ -1,6 +1,7 @@
 ﻿namespace DesignPatterns2.Capitulo2
 {
-    internal class Sol : INota
+    public class Sol : INota
     {
+        public int Fraquencia { get { return 392; } }
     }
 }
