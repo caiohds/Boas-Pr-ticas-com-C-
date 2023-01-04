@@ -1,6 +1,7 @@
 ﻿namespace DesignPatterns2.Capitulo2
 {
-    internal class Fa : INota
+    public class Fa : INota
     {
+        public int Fraquencia { get { return 349; } }
     }
 }
