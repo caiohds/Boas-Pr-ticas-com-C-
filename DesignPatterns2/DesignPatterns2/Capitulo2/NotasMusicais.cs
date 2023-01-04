@@ -18,5 +18,10 @@ namespace DesignPatterns2.Capitulo2
             {"La", new La()},
             { "Si", new Si() }
         };
+
+        public INota GetNota(string nome)
+        {
+            return notas[nome];
+        }
     }
 }
