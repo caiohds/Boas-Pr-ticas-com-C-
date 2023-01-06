@@ -1,5 +1,6 @@
 ﻿using DesignPatterns2.Capitulo1;
 using DesignPatterns2.Capitulo2;
+using DesignPatterns2.Capitulo3;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -9,18 +10,23 @@ class Program
 {
     static void Main(string[] args)
     {
-        NotasMusicais notas = new NotasMusicais();
-        IList<INota> musica = new List<INota>()
-        {
-            notas.GetNota("do"),
-            notas.GetNota("Re"),
-            notas.GetNota("Mi"),
-            notas.GetNota("Fa"),
-            notas.GetNota("Fa"),
-            notas.GetNota("Fa")
+        Historico historico = new Historico();
 
-        };
-        Piano piano = new Piano();
-        piano.Toca(musica);
+        Contrato contrato = new Contrato(DateTime.Now, "Mauricio", TipoContrato.Novo);
+        historico.Adiciona(contrato.SalvaEstado());
+
+        contrato.Avanca();
+        historico.Adiciona(contrato.SalvaEstado());
+
+        contrato.Avanca();
+        historico.Adiciona(contrato.SalvaEstado());
+
+        contrato.Avanca();
+        historico.Adiciona(contrato.SalvaEstado());
+
+        Console.WriteLine(historico.Pega(0).Contrato.Tipo);
+        Console.WriteLine(historico.Pega(1).Contrato.Tipo);
+        Console.WriteLine(historico.Pega(2).Contrato.Tipo);
+        Console.WriteLine(historico.Pega(0).Contrato.Tipo);
     }
 }
