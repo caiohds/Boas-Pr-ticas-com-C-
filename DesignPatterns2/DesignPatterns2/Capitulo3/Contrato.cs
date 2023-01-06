@@ -25,6 +25,10 @@ namespace DesignPatterns2.Capitulo3
             else if (this.Tipo == TipoContrato.EmAndamento) this.Tipo = TipoContrato.Acertado;
             else if (this.Tipo == TipoContrato.Acertado) this.Tipo = TipoContrato.Concluido;
         }
+        public Estado SalvaEstado()
+        {
+            return new Estado(new Contrato(this.Data, this.Cliente, this.Tipo));
+        }
 
     }
 }
